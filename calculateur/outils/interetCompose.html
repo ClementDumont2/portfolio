@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/calculateur/style/styleForm.css">
+</head>
+<body>
+    <form method="post">
+        <fieldset>
+
+            <legend>Intérêt composé</legend>
+            <p>Ce calculateur permet de calculer un intérêt composé</p>
+
+            <label>Somme de départ</label>
+            <input type="number" id="sommeDepart" title="Somme">
+
+            <label>Rendement (en %)</label>
+            <input type="number" id="rendement" title="Rendement en %">
+
+            <label>Durée du placement</label>
+            <input type="number" id="duree" title="Durée du placement">
+
+            <button type="button" onclick="calculInteretCompose()">Calculer</button>
+            
+            <p id="sommeFinale"></p>
+        </fieldset>
+    </form>
+    <script src="/calculateur/scripts/script.js"></script>
+    <footer>
+        <a href="../index.html">Retourner au menu</a>
+    </footer>
+</body>
+</html>

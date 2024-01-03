@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/calculateur/style/styleForm.css">
+</head>
+<body>
+    <form method="post">
+        <fieldset>
+
+            <legend>Pourcentage d'actions</legend>
+            <p>Ce calculateur permet de connaître le pourcentage d'actions que vous devriez avoir dans votre portefeuille</p>
+
+            <label>Votre âge</label>
+            <input type="number" id="agePourcentageAction" max="100" min="0">
+
+            <button type="button" onclick="calculPourcentageAction()">Calculer</button>
+            
+            <p id="pourcentageAction"></p>
+        </fieldset>
+    </form>
+    <script src="/calculateur/scripts/script.js"></script>
+    <footer>
+        <a href="../index.html">Retourner au menu</a>
+    </footer>
+</body>
+</html>

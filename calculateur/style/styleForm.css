@@ -1,0 +1,37 @@
+fieldset{
+    background: rgba( 87, 73, 73, 0.45 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 15px );
+    -webkit-backdrop-filter: blur( 15px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    text-align: center;
+}
+
+form{
+    margin-top: 3%;
+}
+legend{
+    background-color: #5b5555;
+}
+
+button{
+    background-color: rgb(156, 115, 115);
+    color: rgb(37, 39, 41);
+}
+
+button:hover{
+    background-color: rgb(166, 110, 226);
+}
+
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+footer{
+    margin-top: 4%;
+    text-align: center;
+}

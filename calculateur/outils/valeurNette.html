@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/calculateur/style/styleForm.css">
+</head>
+<body>
+    <form method="post">
+        <fieldset>
+
+            <legend>Valeur nette</legend>
+            <p>Ce calculateur permet de calculer votre valeur nette (estimation)</p>
+            <p>Cette estimation bien que peu précise, permet de se faire une idée de votre valeur.</p>
+            <label>Age</label>
+            <input type="number" id="age" title="Age">
+
+            <label>Salaire mensuel net</label>
+            <input type="number" id="salaireNet" title="Salaire mensuel net">
+
+
+            <button type="button" onclick="calculValeurNette()">Calculer</button>
+            
+            <p id="valeurNette"></p>
+        </fieldset>
+    </form>
+    <script src="/calculateur/scripts/script.js"></script>
+    <footer>
+        <a href="../index.html">Retourner au menu</a>
+    </footer>
+</body>
+</html>

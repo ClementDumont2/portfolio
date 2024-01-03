@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/calculateur/style/styleForm.css">
+</head>
+<body>
+    <form method="post">
+        <fieldset>
+
+            <legend>Calcul fond d'urgence</legend>
+            <p>Ce calculateur permet de calculer un fond d'urgence</p>
+            
+            <p>Un fond d'urgence est la somme dont vous avez besoin besoin pour couvrir vos dépenses pendant une période donnée</p>
+            <p>Par exemple si :</p>
+            <p>J'ai besoin de 1000€ par mois pour vivre</p>
+            <p>Je souhaite constituer un fond d'urgence de 6 mois</p>
+            <p>La somme à prévoir sera de 6000€.</p>
+
+            <label>Dépenses mensuelles</label>
+            <input type="number" id="depensesMensuelles">
+
+            <label>Durée du fond (en mois)</label>
+            <input type="number" id="dureeFond">
+
+            <button type="button" onclick="calculFondUrgence()">Calculer</button>
+            
+            <p id="fondUrgence"></p>
+        </fieldset>
+    </form>
+    <script src="/calculateur/scripts/script.js"></script>
+    <footer>
+        <a href="../index.html">Retourner au menu</a>
+    </footer>
+</body>
+</html>
